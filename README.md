@@ -109,4 +109,4 @@ system.
 
 The parameters were chosen manually by trial and error method. Initially only Kp (proportional gain) was introduced but as expected the car was overshootig and oscillating along the center line. To overcome this Kd (diffrential gain) was added which stabilized the oscillations and smoothened the approch of car towards the center. The Ki counteracts a bias in the CTE which prevents the car from reaching the center line. Ki was kept zero.
 
-### [Final Video](./videos/only-differential.mov).
+### [Final Video](./output_videos/final.mp4).

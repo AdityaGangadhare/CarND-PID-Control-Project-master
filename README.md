@@ -91,8 +91,18 @@ instructions to copy files to a new location to get picked up by the IDE, but
 that's just a guess.
 
 One last note here: regardless of the IDE used, every submitted project must
-still be compilable with cmake and make./
+still be compilable with cmake and make.
 
-## How to write a README
-A well written README file can enhance your project and portfolio.  Develop your abilities to create professional README files by completing [this free course](https://www.udacity.com/course/writing-readmes--ud777).
+---
+#### Reflection
+---
+
+### Effect of P, I, D components.
+
+- The proportional portion of the controller had the most directly observable effect on the car's behavior. It causes the car to steer proportional to the car's distance from the lane center and tries to steer the car toward the center line. If used along, the car overshoots and oscillates along the central line. The main usage of the P controller is to decrease the steady state CTE of the
+system.
+
+- The integral portion tries to eliminate a possible bias on the controlled system that could prevent the error to be eliminated. If used along, it makes the car to go in circles. In the case of the simulator, no bias is present.
+
+- The differential portion helps to counteract the proportional components tendency to oscillate and to overshoot the center line by smoothing the approach to it.
 

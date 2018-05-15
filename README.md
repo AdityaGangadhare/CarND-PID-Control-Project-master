@@ -98,7 +98,7 @@ still be compilable with cmake and make.
 
 ### Effect of P, I, D components.
 
-- The proportional portion of the controller had the most directly observable effect on the car's behavior. It causes the car to steer proportional to the car's distance from the lane center and tries to steer the car toward the center line. If used along, the car overshoots and oscillates along the central line. The main usage of the P controller is to decrease the steady state CTE of the
+- The proportional portion of the controller had the most directly observable effect on the car's behavior. It causes the car to steer proportional to the car's distance from the lane center and tries to steer the car toward the center line. If used along, the car overshoots and oscillates along the central line. The main usage of the P controller is to decrease the steady state error (CTE) of the
 system.
 
 - The integral portion tries to eliminate a possible bias on the controlled system that could prevent the error to be eliminated. If used along, it makes the car to go in circles. In the case of the simulator, no bias is present.
